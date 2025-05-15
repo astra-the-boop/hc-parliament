@@ -14,8 +14,7 @@ document.getElementById("navbar").innerHTML = `
 </div>
 `;
 document.getElementById("header").innerHTML = `
-<!--<img src="parliament-full.svg" id="logo">-->
-<img src="favicon.ico.png" id="logo">
+<img src="parliament-full.svg" id="logo">
 `
 document.getElementById("logo").onclick = function() {
     window.location.href="index.html";
